@@ -1,0 +1,144 @@
+@extends('layouts.app')
+@section('content')
+ <!-- ============================ Page Title Start================================== -->
+ <div class="page-title" style="background:#000 url({{url('front_assets')}}/img/page-top-banner.png) no-repeat;">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                     <h2 class="ipt-title">Contact Us</h2>
+                     <span class="ipn-subtitle"><a href="#" style="color: #199dff;">Home</a> / <span style="color: #fff;">Contact Us<span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- ============================ Page Title End ================================== -->
+         <!-- start hot selling projects -->
+			<section class="gray-simple">
+			
+				<div class="container">
+				
+					<!-- row Start -->
+					<div class="row">
+						<div class="col-lg-7 col-md-7">
+                     <div class="box-block-wrap">
+                        <div class="box-block-wrap-body">
+                           <div class="sec-heading centerxxx mt-4">
+                              <h3>Ready to Start Your Real Estate Journey?</h3>
+                              <p>Please fill out the form below and we'll get back to you as soon as we can.</p>
+
+                              <div class="comment-form mt-4">
+                                 <form method="post" class="myForm" action="{{url('saveEnquiryData')}}">
+                                 @csrf
+											<!-- <input type="hidden" name="title" value="Contact Us" > -->
+                                    <div class="row">
+                                       <div class="col-lg-6 col-md-6 col-sm-12">
+                                          <div class="form-group">
+                                             <input type="text" class="form-control" placeholder="Your full name"  name="name" required>
+                                             @error('name')
+                                                <span class="help-block">{{$errors->first('name')}}</span>
+                                             @enderror
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-6 col-md-6 col-sm-12">
+                                          <div class="form-group">
+                                             <input type="text" class="form-control" placeholder="Your Email Address" name="email" required>
+                                             @error('email')
+                                                <span class="help-block">{{$errors->first('email')}}</span>
+                                             @enderror
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-6 col-md-6 col-sm-12">
+                                          <div class="form-group">
+                                             <input type="number" class="form-control" placeholder="Your Phone No." name="phone" data-parsley-required-message="Please enter valid phone no." minlength="10" maxlength="10" required>
+                                             @error('phone')
+                                                <span class="help-block">{{$errors->first('phone')}}</span>
+                                             @enderror
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-6 col-md-6 col-sm-12">
+                                          <div class="form-group">
+                                             <select class="form-control" name="title" required>
+                                                <option value="0" class="option selected">Select Budget Range</option>
+                                                <option value="0 to 5000000" class="option">Under ₹ 50 Lac</option>
+                                                <option value="5000000 to 8000000" class="option">₹ 50 Lac to ₹ 80 Lac</option>
+                                                <option value="8000000 to 100000000" class="option">₹ 80 Lac to ₹ 1 Cr</option>
+                                                <option value="100000000 to 1000000000" class="option">₹ 1 Cr to ₹ 10 Cr</option>
+                                                <option value="1000000000 to 5000000000" class="option">₹ 10 Cr  and above</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-12 col-md-12 col-sm-12">
+                                          <div class="form-group">
+                                             <textarea name="comment" class="form-control" cols="30" rows="2" placeholder="Type your message...." name="message" required></textarea>
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-12 col-md-12 col-sm-12">
+                                          <div class="form-group">
+                                             <button class="btn btn-primary contact-primary btn-theme pull-left" name="submit" type="submit">Send Message &nbsp;&nbsp;<img src="{{url('front_assets/img/arrow.svg')}}" class="contactus_whatsapp_icon"></button> 
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>	
+						</div>
+                  <div class="col-lg-5 col-md-5">
+                     <div class="box-block-wrap" style="height: 100%;">
+                        <div class="box-block-wrap-body">
+                           <h3 class="company_name mt-4 mb-4">Elite Edge Legacy Pvt. Ltd.</h3>
+                           <div class="contact_us_divider"></div>
+                           <div class="pg-side-block-infoxx">
+                              <div class="vl-elfo-group">
+                                 <div class="vl-elfo-icon cdi"  style="width: 48px;"><i class="fa-solid fa-building"></i></div>
+                                 <div class="vl-elfo-caption">
+                                    <h6>Office Address</h6>
+                                    <p><a target="_blank" href="https://maps.app.goo.gl/C5VzH6ooRfFKAUYKA">7th Floor, Golf View Corporate Tower ‘A’ Golf Course Road, Sector 42, Gurgaon-122002</a></p>
+                                 </div>
+                              </div>
+                              <div class="vl-elfo-group">
+                                 <div class="vl-elfo-icon cdi"><i class="fa-solid fa-phone-volume"></i></div>
+                                 <div class="vl-elfo-caption"><h6>Call Us</h6><p><a href="tel:+919999977783">+91 99999 77783</a></p></div>
+                              </div>
+                              <div class="vl-elfo-group">
+                                 <div class="vl-elfo-icon cdi"><i class="fa-regular fa-envelope"></i></div>
+                                 <div class="vl-elfo-caption"><h6>Drop A Mail</h6><p><a href="mailto:connect@eliteedgelegacy.com">connect@eliteedgelegacy.com</a></p></div>
+                              </div>
+                              <div class="vl-elfo-group">
+                                 <div class="vl-elfo-icon cdi"><i class="fa-solid fa-globe"></i></div>
+                                 <div class="vl-elfo-caption"><h6>Website</h6><p>www.eliteedgelegacy.com</p></div>
+                              </div>
+                              <div class="mb-3">
+                                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=919999977783&text=Hi! I'm Interested to buy property" class="btn font--medium btn-primary contact-primary btn-theme contactus_custom_btn"> <img src="{{url('front_assets/img/whatsapp.svg')}}" class="contactus_whatsapp_icon"> CHAT WITH US</a>
+                                 <a target="_blank" href="https://maps.app.goo.gl/C5VzH6ooRfFKAUYKA" class="btn font--medium btn-primary contact-primary btn-theme contactus_custom_btn pull-right"><img src="{{url('front_assets/img/location-gold.svg')}}" class="contactus_whatsapp_icon"> GET DIRECTION</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>	
+                  </div>
+
+                  <div class="col-lg-12 col-md-12 mt-5">
+                     <div class="box-block-wrap"style="padding: 6px 6px 0px 6px; background:linear-gradient(270deg, #ECD5A4 0%, #AD7D0E 100%)" >
+                        <div class="box-block-wrap-body">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7941066342396!2d77.0985573!3d28.455622400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1982d4e75907%3A0x973151104623426a!2sElite%20Edge%20Infra!5e0!3m2!1sen!2sin!4v1736572911754!5m2!1sen!2sin" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                     </div>	
+						</div>
+					</div>
+					<!-- /row -->		
+					
+				</div>
+						
+			</section>
+         <!-- end hot selling projects -->
+@endsection
+
+@section('extra_js')
+<script src="{{ URL::asset('parsley/parsley.js')}}"></script>
+<script>
+$(document).ready(function ( ) {
+  $('.myForm').parsley();
+ });
+</script>
+@endSection

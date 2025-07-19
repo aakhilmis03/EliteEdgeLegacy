@@ -1,0 +1,45 @@
+@extends('layouts.app')
+@section('content')
+<!-- ============================ Page Title Start================================== -->
+<div class="page-title" style="background:#000 url({{url('/front_assets/img/page-top-banner.png')}}) no-repeat;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h2 class="ipt-title">Terms and Conditions</h2>
+                <!-- <span class="ipn-subtitle">Get all Awards & Recognition</span> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================ Page Title End ================================== -->
+<!-- start hot selling projects -->
+<section class="gray-simple">
+    <div class="container">
+        <div class="row ">
+            <div class="box-block-wrap-group">
+                <div class="box-block-wrap">
+                    <div class="box-block-wrap_header">
+                        <h4 class="box-block-wrap_title">Introduction to Terms and Conditions</h4>
+                    </div>
+
+                    <div class="box-block-wrap-body">
+                        <p>The user viewing the content on eliteedgelegacy.com agrees to the following
+                        <ul style="list-style-type:decimal">
+                            <li>Change, eliminate, or crease any product, administration, or advancement (counting however not restricted to any prevision, parts thereof, permitting, evaluating). Elite Edge Legacy will not be at risk for any such change or evacuation.</li>
+                            <li>Discontinue or change any discount promotional vouchers or coupon codes at whenever with notice and you affirm that Elite Edge Legacy will not be at risk for any such change or evacuation.</li>
+                            <li>Change this agreement at any time and your proceeds with the utilization of the website following any progressions will be regarded to be your acknowledgment of such change. </li>
+                        </ul>
+                        </p>
+                        <p>These terms and conditions along with any records explicitly alluded to in them, contain the whole Agreement between us identifying with the topic secured and override any past agreement, plans, endeavors, or proposition, composed or oral: between us comparable to such issues.</p>
+                        <p>There will be no oral clarification or oral data given by any gathering that will adjust the translation of these terms and conditions. In consenting to these terms and conditions, you have not depended on any portal other than those explicitly expressed in these terms and conditions and you concur that you will have no cure in regard of any distortion which has not been settled or explicitly in this agreement.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Start Pagination -->
+    </div>
+</section>
+<!-- end hot selling projects -->
+@endsection

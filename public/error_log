@@ -1,0 +1,40 @@
+[06-Jul-2025 09:52:25 UTC] PHP Warning:  require(/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php): Failed to open stream: No such file or directory in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55
+[06-Jul-2025 09:52:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php(38): composerRequire43828e3c5433e6ddc01d69adf8577bb5()
+#1 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/autoload.php(25): ComposerAutoloaderInit43828e3c5433e6ddc01d69adf8577bb5::getLoader()
+#2 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/public/index.php(13): require('/home/bhdmih9c7...')
+#3 {main}
+  thrown in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55
+[06-Jul-2025 09:52:27 UTC] PHP Warning:  require(/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php): Failed to open stream: No such file or directory in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55
+[06-Jul-2025 09:52:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php(38): composerRequire43828e3c5433e6ddc01d69adf8577bb5()
+#1 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/autoload.php(25): ComposerAutoloaderInit43828e3c5433e6ddc01d69adf8577bb5::getLoader()
+#2 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/public/index.php(13): require('/home/bhdmih9c7...')
+#3 {main}
+  thrown in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55
+[06-Jul-2025 09:57:52 UTC] PHP Warning:  require(/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php): Failed to open stream: No such file or directory in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55
+[06-Jul-2025 09:57:52 UTC] PHP Warning:  require(/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php): Failed to open stream: No such file or directory in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55
+[06-Jul-2025 09:57:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php(38): composerRequire43828e3c5433e6ddc01d69adf8577bb5()
+#1 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/autoload.php(25): ComposerAutoloaderInit43828e3c5433e6ddc01d69adf8577bb5::getLoader()
+#2 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/public/index.php(13): require('/home/bhdmih9c7...')
+#3 {main}
+  thrown in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55
+[06-Jul-2025 09:57:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php(38): composerRequire43828e3c5433e6ddc01d69adf8577bb5()
+#1 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/autoload.php(25): ComposerAutoloaderInit43828e3c5433e6ddc01d69adf8577bb5::getLoader()
+#2 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/public/index.php(13): require('/home/bhdmih9c7...')
+#3 {main}
+  thrown in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55
+[06-Jul-2025 09:57:53 UTC] PHP Warning:  require(/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php): Failed to open stream: No such file or directory in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55
+[06-Jul-2025 09:57:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/../../app/Helpers/helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php(38): composerRequire43828e3c5433e6ddc01d69adf8577bb5()
+#1 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/autoload.php(25): ComposerAutoloaderInit43828e3c5433e6ddc01d69adf8577bb5::getLoader()
+#2 /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/public/index.php(13): require('/home/bhdmih9c7...')
+#3 {main}
+  thrown in /home/bhdmih9c7kw2/public_html/eliteedgelegacy.com/vendor/composer/autoload_real.php on line 55

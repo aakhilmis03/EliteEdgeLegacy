@@ -1,0 +1,197 @@
+@extends('layouts.app')
+@section('content')
+   <!-- ============================ Page Title Start================================== -->
+   <div class="page-title" style="background:#000 url({{url('front_assets')}}/img/page-top-banner.png) no-repeat;">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                     <h2 class="ipt-title">About Us</h2>
+                     <span class="ipn-subtitle"><a href="{{url('/')}}" style="color: #199dff;">Home</a> / <span style="color: #fff;">About Us<span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- ============================ Page Title End ================================== -->
+         <!-- start mission & vision -->
+         <section class="mid gray-simple" style="background-colorx: #f7f4f1;">
+            <div class="container">
+              
+               <div class="row justify-content-left gx-3 gy-4 property-list">
+                  <!-- Single Property -->
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" >
+							<div class="about-box">
+								<div class="section-title mt-xl-7 mt-4">
+                           <h2 class="text-white1">Elite Edge Legacy: Vision &amp; Mission</h2>
+                           <p class="mt-3 f17">Decades of assiduous diligence and aspiration to serve the most revered clientele have
+resulted in the profound establishment of Elite Edge. Elite Edge comes effectively
+equipped with versatile backdrop of identifying Best Real Estate Investment
+Opportunities across Luxurious Residential, Commercial and Mixed-Use Developments of
+only credible and reputable Developers across NCR especially Gurugram. The Company
+has been making rapid strides and has spread its wings in the Real Estate Horizon of Goa
+as well which is fast emerging as the next hotbed for the investments.</p>
+<p class="mt-3 f17">The Founder, Mr Shubham Sardana is empowered with an exceptional academic background and has been championed as one of the Most Reputable and Reliable Real Estate Consultants in the region.</p>
+                        </div>
+							</div>
+						</div>
+						<div class="col-xl-1 col-lg-1 col-md-2 col-sm-1 col-12" ></div>
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12" >
+							<div class="about-right-img">
+								<div class="main-shift-img">
+                           <img src="{{url('front_assets')}}/img/blog-3.jpg" class="img-fluid relative" style="border-radius: 40px;"> 
+                           <!--<button class="about-play-btn">
+                              <i class="fa fa-play" aria-hidden="true"></i>
+                           </button>-->
+                        </div>
+							</div>
+						</div>
+						<!-- End Single Property -->	
+                   <!-- Single Property -->
+                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12" >
+							<div class="about-right-img">
+								<div class="main-shift-img">
+                           <img src="{{url('front_assets')}}/img/blog-1.jpg" class="img-fluid" style="border-radius: 40px;"> 
+                        </div>
+							</div>
+						</div>
+                  <div class="col-xl-1 col-lg-1 col-md-2 col-sm-1 col-12" ></div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" >
+							<div class="about-box">
+								<div class="section-title mt-xl-7 mt-4">
+                           <h2 class="text-white1"></h2>
+                           <p class="mt-3 f17">
+                              His ardent analysis of the opportunities, incredible reputation with the top notch Developers, carving of the best deals for the clients, and taking the lead in resolving all their concerns have made him The Most Desired Consultant sought by everyone. Elite Edge Legacy duly registered with RERA Authorities has been breaking the barriers of fetching the maximum ROI coupled with complete Transparency and Trust.
+The Organization is proud to be a bastion of highly skilled teams to cater to all kinds of requirements of the Clients at any time. The most highlightable part is Customer Support and Relationship Team which has been handpicked to ensure a seamless and relaxed experience for all our Customers. We are indeed proud of the complete ecosystem and wherewithal possessed by the Company to take care of minutest details.
+                           </div>
+							</div>
+						</div>                 
+						<!-- End Single Property -->	
+					
+
+                  
+              
+                  
+               </div>
+          
+            </div>
+         </section>
+         <!-- end mission & vision -->
+         <!-- start why choose us -->
+         <section class="mid">
+            <div class="container">
+            
+               <div class="row justify-content-center gx-3 gy-4 property-list">
+                  <!-- Single Property -->
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+                     <div class="about-box">
+                        <div class="section-title mt-xl-7 mt-4">
+                           <center>
+                              <h2 class="text-white1 center">Why Choose Us?</h2>
+                              <p class="mt-3 f17 center">Full transparency is our goal. We stay connected while building your home, clearly outlining next steps and collaborating with you to select personal design details. From day one, your peace of mind is our highest priority. </p>
+                           </center>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12" >
+                     <div class="about-right-img">
+                        <div class="main-shift-img">
+                           <a class="about-custom-btn  pull-right">➤ Contact Us</a>
+                        </div>
+                     </div>
+                  </div> -->
+                  <!-- End Single Property -->	
+                  <!-- Single Property -->
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12" >
+                     <div class="about-feature">
+                        <div class="mb-1"> 
+                           <img src="{{url('front_assets')}}/img/about-icon-1.jpeg" style="width:120px;">
+                        </div>
+                        <h4 class="font-weight-semibold2 about-why-choose-us-color mb-2">Unmatched Expertise</h4>
+                        <p class="about-why-choose-us-color">Unrivaled mastery in luxury real estate, crafting unparalleled elite outcomes.</p>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12" >
+                     <div class="about-feature">
+                        <div class="mb-1"> 
+                           <img src="{{url('front_assets')}}/img/about-icon-2.jpeg" style="width:120px;">
+                        </div>
+                        <h4 class="font-weight-semibold2 about-why-choose-us-color mb-2">Bespoke Solutions</h4>
+                        <p class="about-why-choose-us-color">Exclusive, tailored property strategies designed for the world’s most discerning clientele.</p>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12" >
+                     <div class="about-feature">
+                        <div class="mb-1"> 
+                           <img src="{{url('front_assets')}}/img/about-icon-3.jpeg" style="width:120px;">
+                        </div>
+                        <h4 class="font-weight-semibold2 about-why-choose-us-color mb-2">Global Excellence</h4>
+                        <p class="about-why-choose-us-color">Dominating real estate, setting the gold standard for supreme success.</p>
+                     </div>
+                  </div>            
+                  <!-- End Single Property -->	
+               
+
+                  
+            
+                  
+               </div>
+         
+            </div>
+         </section>
+         <!-- end why choose us -->
+         <!-- ================= Our Team================= -->
+			<section class="gray-simple">
+				<div class="container">
+				
+					<div class="row">
+						<div class="col-lg-12 col-md-12">
+							<div class="sec-heading center">
+								<h2>Visionaries Behind Our Success</h2>
+								<p>Meet the visionaries who laid the first stone and keep building beyond it.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row gx-3 gy-4 justify-content-center">
+						
+						<!-- Single Teamm -->
+						<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+							<div class="team-grid">
+						
+								<div class="teamgrid-user">
+									<img src="{{url('front_assets')}}/img/shubham-sardana.jpg" alt="" class="img-fluid" />
+								</div>
+								
+								<div class="teamgrid-content">
+									<h4>Mr. Shubham Sardana</h4>
+									<span>Founder & CEO </span>
+								</div>
+					
+							</div>
+						</div>
+						
+						<!-- Single Teamm -->
+						<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+							<div class="team-grid">
+								
+								<div class="teamgrid-user">
+									<img src="{{url('front_assets')}}/img/ankush-sardana.jpg" alt="" class="img-fluid" />
+								</div>
+								
+								<div class="teamgrid-content">
+									<h4>Mr. Ankush Sardana</h4>
+									<span>Director</span>
+								</div>
+					
+							</div>
+						</div>
+						
+						
+						
+		
+					</div>
+				
+				</div>
+			</section>
+			<!-- =============================== Our Team ================================== -->
+@endsection
+
